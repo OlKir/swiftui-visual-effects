@@ -5,6 +5,7 @@
 import SwiftUI
 
 /// Creates a vibrancy effect.
+@available(iOS 13.0, *)
 public struct VibrancyEffectModifier: ViewModifier {
 	public init() {}
 	

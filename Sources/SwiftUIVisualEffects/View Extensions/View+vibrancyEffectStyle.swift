@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public extension View {
 	/**
 	Sets the style for vibrancy effects within this view.

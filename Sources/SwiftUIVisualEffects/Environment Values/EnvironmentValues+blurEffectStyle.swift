@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 extension EnvironmentValues {
 	var blurEffectStyle: UIBlurEffect.Style {
 		get {

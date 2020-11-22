@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 public extension View {
 	/**
 	Sets the style for blur effects within this view.

@@ -7,7 +7,7 @@ let package = Package(
 	name: "SwiftUIVisualEffects",
 	
 	platforms: [
-		.iOS(.v13)
+		.iOS(.v12)
 	],
 	
 	products: [

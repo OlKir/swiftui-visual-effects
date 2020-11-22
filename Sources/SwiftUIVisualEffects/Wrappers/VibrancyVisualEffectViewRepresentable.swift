@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct _VibrancyVisualEffectViewRepresentable<Content: View>: UIViewRepresentable {
 	/// - Warning: `content`'s intrinsic content size will be lost.
 	init(content: Content) {
@@ -27,6 +28,7 @@ struct _VibrancyVisualEffectViewRepresentable<Content: View>: UIViewRepresentabl
 	private let content: Content
 }
 
+@available(iOS 13.0, *)
 extension _VibrancyVisualEffectViewRepresentable {
 	final class Coordinator {
 		let visualEffectView = UIVisualEffectView()
